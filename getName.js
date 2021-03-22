@@ -1,5 +1,6 @@
 const getName = (someObject) => {
-  if(someObject.name) return someObject.name;
+  const { name } = someObject;
+  if(name) return name;
 };
 
 module.exports = getName;
